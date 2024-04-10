@@ -38,7 +38,7 @@ bot.on("ready", () => {
   console.log(""); 
   console.log(""); 
   console.log(`Aplicativo em uso: ${bot.user.tag}`.red)
-  bot.user.setPresence({ game: { name: 'Fortnite', type: 1, url: 'https://www.twitch.tv/aartz'} });
+  bot.user.setPresence({ game: { name: 'Store', type: 1, url: 'https://www.twitch.tv/'} });
 });
 
 bot.on('message', message => {
